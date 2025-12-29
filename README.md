@@ -2,13 +2,13 @@
 
 **LLM Health Guardian** is a production-style observability and incident-response system for LLM applications powered by **Google Vertex AI / Gemini**, with end-to-end monitoring built on **Datadog**.
 
-It is designed to treat LLM workloads like real production systems: measurable, monitorable, and operationally safe — not a black box.
+It is designed to treat LLM workloads like real production systems: measurable, monitorable, and operationally safe not a black box.
 
 ---
 
 ## Why this exists
 
-Traditional observability tells you when servers are up — but LLM apps fail in new ways:
+Traditional observability tells you when servers are up but LLM apps fail in new ways:
 
 - Latency can degrade silently (especially tail latency)
 - Errors can spike due to upstream model issues or misconfiguration
@@ -76,9 +76,6 @@ At least one monitor is wired to **Datadog Incident Management** so that when a 
 
 - Hosted API (Cloud Run):  
   `https://llm-health-guardian-api-1051839420546.us-central1.run.app/`
-
-- OpenAPI docs:  
-  `https://llm-health-guardian-api-1051839420546.us-central1.run.app/docs`
 
 Example request:
 
