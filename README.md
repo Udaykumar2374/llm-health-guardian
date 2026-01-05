@@ -31,7 +31,7 @@ Emits structured telemetry for each `/api/chat` request:
 - Optional safety / blocked signals
 
 ### 2) Datadog dashboard: single pane of glass
-A unified “LLM Health Guardian – Prod” dashboard surfaces:
+A unified “LLM Health Guardian - Prod” dashboard surfaces:
 - Requests per minute
 - p95 latency (tail latency)
 - Error rate
